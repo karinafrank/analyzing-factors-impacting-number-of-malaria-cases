@@ -43,7 +43,9 @@ The following steps were used for analysis:
 
 5. Graphs showing the trendline equation and R^2 values for these variables were created in Excel.
 
+![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Malaria%20Cases%20v.%20GDP%20in%20Cambodia.JPG?raw=true)
 
+!
 
 
 
