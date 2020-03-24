@@ -28,7 +28,26 @@ The following steps were used for analysis:
   * Labels for the data set were inlcuded and therefore checked off in the dialogue box.
   * The results were output into a separate worksheet, inlcuding the calculation of residuals.
 4. The coefficients were analyzed to see which strongly predicted large changes in malaria cases. Overall access to basic sanitation and GDP were selected as the variables to analyze.
+
+|	Coefficients|	Standard Error	|t Stat	|P-value	|Lower 95%	|Upper 95%	|Lower 95.0%	|Upper 95.0%|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Intercept|	38212.29474	|87088.97597	|0.43877304	|0.736771436|	-1068358.064|1144782.654	|-1068358.064	|1144782.654
+|Water_Overall|	0	|0|	65535	|#NUM!|	0	|0|	0|	0|
+|Water_Rural|	-5480	|2514.879719|	-2.179030655	|#NUM!|	-37434.57659|	26474.57659|	-37434.57659	|26474.57659|
+|Water_Urban	1610.473684	|1233.72133	|1.305378812	|0.416159144	|-14065.44213|	17286.3895	|-14065.44213|	17286.3895|
+|Sanitation_Overall	|9170.473684	|9485.823378	|0.966755686|	0.510759838	|-111358.3403|	129699.2876|	-111358.3403	|129699.2876|
+|Sanitation_Rural|	-7400|	9033.714629|	-0.819153616|	0.563080625|	-122184.2276	|107384.2276	|-122184.2276|	107384.2276|
+|Sanitation_Urban	|346	1702.082254|	0.203280423|	0.872327297	|-21281.0056|	21973.0056	|-21281.0056	|21973.0056|
+|GDP|	-0.073950557	|0.160875577	|-0.459675474|	0.665044657	|-0.487494394|	0.33959328|	-0.487494394	|0.33959328|
+
+
 5. Graphs showing the trendline equation and R^2 values for these variables were created in Excel.
+
+
+
+
+
+
 6. __Input python analysis steps __
 
 
@@ -40,13 +59,25 @@ Use website links to your data sources, for example, if you used data from Balti
 
 ## Malaria Cases are Related to Overall Country Sanitation and GDP
 
-*Ill put in my graphs
-Results
+
+
+
+*Instructios for this section*
+What were the results of your data analysis and how did this contribute to your final solution?
+What type of visualizations can best demonstrate what you found and what you think is important to emphasize to your audience?
+Keep your data visualizations and tables in here for people to follow along with your analysis and explore how your data findings are relevant. For example, if you analyzed Baltimore Police Department Salary Data, add in a graph here to emphasize the trends in number of Police Officers and overtime earnings in fiscal years 2014-2018: Alt text
+
 
 ## Countries Must Reach a Critical Point in 
 
 *relate it back to the threshold and flattening the curve and clinical capacity
 * link to the flattening the curve article
+
+*Intructions for this section:*
+- What’s the answer to your original question? Were you able to come to any type of conclusive answer—why or why not?
+- How would you build on your analysis if given more time?
+- What do these answers mean for us in the real world?
+- What do these answers mean for the audience in this industry?
 
 
 
