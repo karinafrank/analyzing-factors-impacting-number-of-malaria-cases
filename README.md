@@ -45,10 +45,7 @@ The following steps were used for analysis:
 
 ![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Malaria%20Cases%20v.%20GDP%20in%20Cambodia.JPG?raw=true)
 
-!
-
-
-
+![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Malaria%20Cases%20v.%20Overall%20Sanitation%20in%20Cambodia.JPG?raw=true)
 
 6. __Input python analysis steps __
 
