@@ -21,7 +21,7 @@ The following steps were used for analysis:
   * Percent of roads that are paved
   * Medical Doctors per 1000 people
   * Number of Cars/Buses/Trucks 
-2. Since data was not available in each of these categories for every country, preliminary selection for variables to be analyzed were selected. Cambodia had the most reliable data across all of the categories for the longest period of time, so the data was compiled into a single [Excel document]() using VLOOKUP for Cambodia from years 2000-2006.
+2. Since data was not available in each of these categories for every country, preliminary selection for variables to be analyzed were selected. Cambodia had the most reliable data across all of the categories for the longest period of time, so the data was compiled into a single [Excel document](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Regression%20Analysis.xlsx?raw=true) using VLOOKUP for Cambodia from years 2000-2006.
 3. A multiple regression analysis was then conducted to provide which variables had the strongest predictive influence on the number of malaria cases the country experienced and to show how much changing one variable would affect the other. 
   * The Data Analysis plugin under the Data tab was used. 
   * The regression tool was selected. The Input Y range was specified as the Malaria cases column, as we want to examine how other variables result in changes in malaria cases. The Input X range was specified as the columns containing all of the other varibales we wanted to analyze. 
