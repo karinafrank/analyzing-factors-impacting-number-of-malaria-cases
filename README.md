@@ -49,30 +49,23 @@ The following steps were used for analysis:
 
 6. Now we want to see what the relationhips is between both variables and malaria cases/1000. We started our analysis just by examining the data from Cambodia because it was the most complete set and would therefore aid us in identifying which variables strongly correlate with malaria cases/1000. We can now do the rest of the analysis for any country that has GDP/Capita data, sanitation data, and malaria cases/1000. It would be helpful to visualize how malaria cases/1000 change over time as a function of both variables. We therefore imported the data in ploty express to create an animation.
 
-*Instructions for this section:
-What kind of data was important to use to answer this question, how did you find it, and why did you use this information? Was there some data that you wish you had? If so, how would you change your approach?
-What metrics did you think were important to understanding a quantitative answer to your original question and why? Did you “translate” any of your data into numbers?
-Did you base your data analysis on another type of analysis or desired outcome?
-Use website links to your data sources, for example, if you used data from Baltimore City Open Data, add a link for the reader to learn more*
+7. Using anaconda, a new virtual environment was create that included ploty express. This add-in allowed us to create the animations. A csv file was then read into anaconda. This csv file had different countries with data from 2000-2006. This data included malaria count/1000 people, GDP/Capita, and basic sanitation access as a percentage. It also included metadata such as the country population and the continent.
+
+8. Once the data was read, plotly express was called to create the animations.
 
 ## Results
 
 Malaria Cases/1000 as a function of % of population with access to basic santitation (video needs to be downloaded)
 ![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Basic%20Sanitation%20Animation.mp4)
+This video shows how malaria cases/10000 people change from year to year based on the percentage of the country that has access to basic sanitation. It is evident countries over a certain amount of malarial cases experience large fluctuations from year to year. In addition, the countries that struggle to most are in Africa.    
 
-Malaria Cases/1000 as a function of GDP/Capita (video needs to be downloaded):
+Malaria Cases/10000 as a function of GDP/Capita (video needs to be downloaded):
 ![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/GDPCapita%20Animation.mp4)
-
-
-*Instructions for this section*
-What were the results of your data analysis and how did this contribute to your final solution?
-What type of visualizations can best demonstrate what you found and what you think is important to emphasize to your audience?
-Keep your data visualizations and tables in here for people to follow along with your analysis and explore how your data findings are relevant. For example, if you analyzed Baltimore Police Department Salary Data, add in a graph here to emphasize the trends in number of Police Officers and overtime earnings in fiscal years 2014-2018: Alt text
-
+This video shows how malaria cases/10000 people change from year to year based on the GDP/Capita. This animation is very similar to the sanitation one (countries over a certain amount of malarial cases experience large fluctuations from year to year). This is likely because GDP/Capita and % sanitation are closely correlated. Wealthy countries collect more in taxes and can spend more on healthcare. In addition, the countries that struggle to most are in Africa.
 
 ## Countries Must Reach a Critical Point in Reduction of Cases to Maintain Low Incidence
 
-The results from the python analysis show an interesting trend. The longitudinal data for all the countries was not available over a long period of time, but instead of looking at changes over time, insight can be gained from looking at the general trends of countries' standing in the graphs generated. It appears that countries which are able to get below a certain point in malaria incidence rate are able to maintain that low incidence rate across GDP and sanitation levels. **insert some examples from the actual graph**
+The results from the python analysis show an interesting trend. The longitudinal data for all the countries was not available over a long period of time, but instead of looking at changes over time, insight can be gained from looking at the general trends of countries' standing in the graphs generated. It appears that countries which are able to get below a certain point in malaria incidence rate are able to maintain that low incidence rate across GDP and sanitation levels. For example, Kenya fluctuates wildly in malarial cases from year to year, but Guinea-Bissau remains relatively steady. 
 
 These results seem to align with many of the public health guidance being released at the moment relating to COVID-19. In one [Vox article](https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation), it is discussed how there is a limit to the capacity healthcare systems can handle. In the wake of major outbreaks, healthcare systems' abilities to handle and contain the disease cases is severely strained, making the overall system less effective. However, as supported by the results generated by our analysis, as long as healthcare systems are able to get the number of disease cases below a certain point, where the burden on systems becomes managable by the resources available, it seems that system is able to maintain and function well at that managable leevel of disease burden. 
 
@@ -81,12 +74,3 @@ These results seem to align with many of the public health guidance being releas
 It seems that countries with constrained resources see large fluctuations in malaria cases year by year. This indicates that these countries do not have the proper system in place to successfully manage malaria. This directly applied to coronavirus because it countries at do a poor job at preventing malaria likely do not have a good system in place to deal with coronavirus. Therefore, the international community needs to render aid to the countries right now. 
 
 This analysis would have benefited from a timeline of events that impact malaria cases. For example, if we had data that there was unusually large rainfall in 2003 (leading to more puddles which births more mosquitoes) then we could see different countries dealt with that shock to their healthcare system. This would allow us to predict with more granularity the countries that would be hit harder by coronavirus. If the country couldn't handle the influx of malarial cases, they likely cannot handle the influx of coronavirus patients. 
-
-*Intructions for this section:*
-- What’s the answer to your original question? Were you able to come to any type of conclusive answer—why or why not?
-- How would you build on your analysis if given more time?
-- What do these answers mean for us in the real world?
-- What do these answers mean for the audience in this industry?
-
-
-
