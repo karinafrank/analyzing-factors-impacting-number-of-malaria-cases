@@ -57,10 +57,10 @@ Use website links to your data sources, for example, if you used data from Balti
 
 ## Results
 
-Malaria Cases/1000 as a function of % of population with access to basic santitation
+Malaria Cases/1000 as a function of % of population with access to basic santitation (video needs to be downloaded)
 ![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/Basic%20Sanitation%20Animation.mp4)
 
-Malaria Cases/1000 as a function of GDP/Capita:
+Malaria Cases/1000 as a function of GDP/Capita (video needs to be downloaded):
 ![alt text](https://github.com/karinafrank/analyzing-factors-impacting-number-of-malaria-cases/blob/master/GDPCapita%20Animation.mp4)
 
 
